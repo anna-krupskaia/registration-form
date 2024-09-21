@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home work 14</title>
+</head>
+<body>
+<div class="container">
+
+    <header class="header">
+        <a href="" class="logo">
+            <img src="images/homeWorks.png" alt="logo">
+        </a>
+    </header>
+
+    <div class="main-page">
+
+    <div class="left-side">
+        <h1 id="titleH1">
+            Get your free account
+        </h1>
+
+        <h2 class="trial" id="trial">
+            Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+        </h2>
+
+        <form action="javascript:void(0)" id="myForm">
+
+            <label class="label" for="name">
+                Full name
+                <input type="text" class="input" id="name" autocomplete="off">
+            </label>
+            <div class="error" id="nameError">Заполните поле Full name</div>
+
+            <label class="label" for="userName">
+                Your username
+                <input type="text" class="input" id="userName" autocomplete="off">
+            </label>
+            <div class="error" id="userError">Заполните поле User name</div>
+
+            <label class="label" for="email">
+                E-mail
+                <input type="email" class="input" id="email" autocomplete="off">
+            </label>
+            <div class="error" id="emailError">Корректно заполните поле Email</div>
+
+            <label class="label" for="password">
+                Password
+                <input type="password" class="input" id="password" autocomplete="off">
+            </label>
+            <div class="error" id="passwordError">Корректно заполните поле Password</div>
+
+            <label class="label" for="repeatPassword">
+                Repeat password
+                <input type="password" class="input" id="repeatPassword" autocomplete="off">
+            </label>
+            <div class="error" id="repeatError">Корректно заполните поле Repeat Password</div>
+
+
+            <label for="myCheckbox">
+                <input type="checkbox" name="terms" id="myCheckbox">
+                <span class="term" id="errorCheckbox">Agree to our Terms of Service and Privacy Statement </span>
+            </label>
+
+            <input type="submit" class="sign-up" id="signIn" value="Sign Up">
+
+
+        </form>
+
+        <div class="exist-account">
+             <a href="#" id="exist">Already have an account?</a>
+        </div>
+
+    </div>
+
+     <div class="right-side">
+         <img class="figures" src="images/image.png" alt="spaceship">
+    </div>
+
+
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
